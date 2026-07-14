@@ -53,6 +53,8 @@ print(f"Total NA sales: {total_NA_Sales}")
 print(f"Total JP sales: {total_JP_Sales}")
 if  total_NA_Sales > total_JP_Sales:
     print('North America had higher sales')
+elif total_NA_Sales == total_JP_Sales:
+    print('North America sales is equal to total Japan sales.')
 else:
     print('Japan had higher sales')
 nintendo_games =[]
