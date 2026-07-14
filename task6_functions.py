@@ -61,7 +61,7 @@ print(f"Sports games: {len(sports_list)}")
 # --- PART C: GET AND LOOP SUMMARIES ---
 def get_summary(game):
     name = game[1]
-    year = game[2]
+    year = game[3]
     genre = game[4]
     global_sales = game[9]
     return f"{name} ({year}) - {genre} - ${global_sales}M"
