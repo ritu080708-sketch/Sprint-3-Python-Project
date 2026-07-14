@@ -50,6 +50,6 @@ for i in range(len(video_game_sales)):
     else:
         games_per_publisher[publisher] = 1   # Start the count at 1 for a new publisher
 print(games_per_publisher)
-top_game={'name':'Wii Sports','year':2006,'genre':'Sports','publisher':'Nintendo','global_sales':82.74}
+top_game={'name':video_game_sales[0][NAME],'year':video_game_sales[0][YEAR] ,'genre':video_game_sales[0][GENRE],'publisher':video_game_sales[0][PUBLISHER],'global_sales':video_game_sales[0][GLOBAL_SALES] }
 for key,value in top_game.items():
     print(f"{key}: {value}")
