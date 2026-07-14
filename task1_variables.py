@@ -33,8 +33,12 @@ EU_SALES = 7
 JP_SALES = 8
 GLOBAL_SALES = 9
 
-total_games = video_game_sales[19][0]
+k=0
+for i in range(len(video_game_sales)):
+    k=k+1
+    total_games = k
 print(total_games)
+
 total_global_sales= 0
 k=0
 for i in range(len(video_game_sales)):
